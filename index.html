@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kipas Tenaga Surya</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+      scroll-behavior: smooth;
+    }
+    .deskripsi-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+
+.deskripsi-text {
+  flex: 1;
+}
+.deskripsi-img img {
+  max-width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+
+/* Responsif */
+@media (max-width: 768px) {
+  .deskripsi-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .deskripsi-img img {
+    max-width: 100%;
+  }
+}
+
+
+/* Responsif untuk layar kecil */
+
+
+    body {
+      background: linear-gradient(to right, #fff0f5, #ffe4e1);
+      color: #33335c;
+    }
+  header {
+      background-color: #A6F1E0;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: white;
+    }
+
+    header p::before {
+      content: "✨ ";
+    }
+
+   
+
+    nav {
+      background-color: #73C7C7;
+      text-align: center;
+      padding: 1rem 0;
+    }
+
+ nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+      color: #33335c;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 30px 20px; 
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+ .card {
+      background-color: white;
+      border-radius: 15px;
+      padding: 1.5rem;
+      margin: 1rem 0;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      animation: fadeIn 1s ease-in-out;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.02);
+    }
+
+    .card h2 {
+      color: ;
+      margin-bottom: 0.5rem;
+    }
+
+    .card p, .card ol, .card li {
+      line-height: 1.6;
+    }
+  footer {
+      background-color: #33335c;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      background-color: #33335c;
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #33335c;
+    }
+
+   @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+ <header>
+    <h1>Kipas Tenaga Surya (KTS)</h1>
+    <p>SolarFanz!🌀</p>
+  </header>
+
+  <nav>
+    <a href="#Deskripsi Produk">📌 Deskripsi</a>
+    <a href="#Langkah Pembuatan">🛠 Langkah</a>
+    <a href="#Keunggulan">💡 Keunggulan</a>
+    <a href="#Kekurangan">⚠ Kekurangan</a>
+    <a href="#Identitas Kelompok">👭 Kelompok</a>
+  </nav>
+  
+<section id="Deskripsi Produk">
+    <div class="card deskripsi-flex">
+      <div class="deskripsi-text">
+        <h2>📌 Deskripsi</h2>
+        <p>
+          Kipas Tenaga Surya adalah sebuah kipas kecil yang energinya bersumber pada cahaya matahari dengan menggunakan panel surya. Kami ingin membuat barang ini karena menurut kami ini akan menjadi barang yang unik dan juga dapat menghemat listrik, ramah lingkungan, mudah dibuat, dan termasuk teknologi sederhana. Konsep dasar kipas hemat listrik ini adalah menciptakan aliran udara dari sebuah baling-baling yang membentuk kipas yang bersumber pada cahaya matahari dengan menggunakan bantuan panel surya dan dapat bekerja tanpa bergantung pada listrik dari PLN. Panel surya berfungsi akan menangkap sinar matahari dan di jadikan listrik. Pengontrol Tegangan (Charge Controller) atau kabel listrik akan berfungsi mengatur arus dari panel surya ke motor DC. Motor DC dengan konsumsi daya rendah mengubah energi listrik menjadi energi mekanik dan dapat menggerakan baling-baling kipas. Baling-baling kipas berputar di desain ringan dan efisien untuk memaksimalkan aliran udara. Desainnya akan fokus pada kesederhanaan, portabilitas, dan kemudahan perakitan, sehingga dapat dibuat oleh siapa saja dengan alat dan bahan yang minimal.
+        </p>
+      </div>
+      <div class="deskripsi-img">
+        <img src="c:\Users\DAMTSA\Downloads\IMG-20250605-WA0007.jpg" alt="Kipas Tenaga Surya" />
+      </div>
+    </div>
+  </section>
+  
+<div class="deskripsi-img">
+        <text-align><center> <img src="c:\Users\DAMTSA\Downloads\IMG-20250605-WA0009.jpg" alt="Proses Pembuatan KTS" /></center></text-align>
+      </div>
+
+<section id="Langkah Pembuatan">
+    <div class="card">
+      <h2>🛠 Langkah Pembuatan</h2>
+      <ul>
+        <li><strong>Membuat Kerangka Kipas</strong></li>
+          <ol>- Potong kardus menjadi 2 bagian membentuk segiempat (15 cm x 15 cm), lalu tempelkan 2 bagian tersebut menjadi satu.</ol>
+          <ol>- Potong lagi kardus menjadi 4 bagian persegi panjang kecil (2 cm x 10 cm) lalu gulung sampai padat dan rekatkan, lalu tempelkan 4 kaki pada kardus segiempat tadi.</ol>
+          <ol>- Bagian samping ditempeli oleh stik eskrim yang sudah di potong menjadi 2.</ol>
+          <ol>- Potong kardus baru menjadi segipanjang berukuran besar (18 cm x 10 cm) dan gulung lalu berdirikan dan rekatkan dengan glue gun sebagai penyangga kipas.</ol>
+          <ol>- Potong kardus menjadi persegi panjang dan dibentuk melengkung lalu di tempelkan pada penyangga kipas, setelah itu potong stik eskrim dengan panjang yang sama lalu tempelkan pada sisi luar kardus.</ol>
+          <ol>- Potong kardus membentuk lingkaran menyesuaikan ukuran baling-baling kipas. Satukan dengan lengkungan yg telah dibuat.</ol>
+          <ol>- Selanjutnya potong stik eskrim sama panjang dan rakitkan menjadi kubus sebagai penyangga panel surya.</ol>
+        <li><strong>Pemasangan Motor DC</strong></li>
+          <ol>- Letakkan motor diatas penyangga kipas.</ol>
+          <ol>- Rekatkan motor DC dengan lem tembak di posisi stabil agar tidak goyah saat berputar.</ol>
+          <ol>- Pasang baling-baling pada poros motor DC.</ol>
+        <li><strong>Penyambungan Kabel</strong></li>
+          <ol>- Sambungkan kabel dari dc motor ke sakelar on/off.</ol>
+          <ol>- Setelah kabel terpasang/terlilit pada sakelar sambungkan kabel ke panel surya </ol>
+          <ol>- Pastikan polaritas (+) dan (-) motor terhubung dengan benar agar kipas berputar ke arah yang tepat.</ol>
+        
+     </ul>
+    </div>
+  </section>
+
+  <text-align><center><iframe width="560" height="315" src="https://youtube.com/embed/SJT9eSdrJj4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center></text-align>
+
+  <section id="Keunggulan">
+    <div class="card">
+      <h2>💡 Keunggulan</h2>
+      <ul>
+         <li>🏠Mengurangi Energi Listrik</li>
+           <ol>Mengurangi penggunaan listrik dari sumber energi fosil yang berdampak negatif terhadap lingkungan.</ol>
+         <li>🧠 Pengetahuan</li>
+           <ol>Mendorong pemikiran problem-solving dan eksperimen dalam rekayasa teknologi sederhana..</ol>
+         <li>💰 Hemat Pengeluaran</li>
+           <ol>Menekan biaya tagihan listrik rumah tangga menjadi murah dalam jangka waktu panjang..</ol>
+           <li>🌀 Alat Elektronik Sederhana</li>
+      <ol>Menyediakan alat elektronik sederhana yang praktis, murah, bahannya mudah didapatkan.</ol>
+      </ul>
+      
+      
+    </div>
+  </section>
+
+<section id="Kekurangan">
+    <div class="card">
+        <h2>⚠ Kekurangan</h2>
+     
+    <ul>
+        <li>🌞 Ketergantungan pada sinar matahari.</li>
+        <li>🔋 Tidak ada baterai penyimpanan listrik.</li>
+        <li>🍃 Daur ulang bahan produk harus dilakukan dengan benar</li>
+            
+     </ul>
+
+    </div>
+  </section>
+ <section id="Identitas Kelompok">
+      <h2>👭 Identitas Kelompok</h2>
+      <ul>
+         <div class="card"><li>Damtsa Fatinah Imtinan</li></div>
+         <div class="card"><li>Asterella Sava Emiliana</li></div>
+         <div class="card"><li>Chessa Amelia</li></div>
+         <div class="card"><li>Wafa Zahidah</li></div>
+         <div class="card"><li>Kania Irawan</li></div>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+
+   
+
+  <footer>
+    Kipas Tenaga Surya | Teknologi Sederhana 2025
+  </footer>
+
+</body>
+</html>
+
+</body>
+</html>
